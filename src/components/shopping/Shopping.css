@@ -1,0 +1,66 @@
+input {
+    height: 40px;
+    width: 230px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.shopping-list {
+    width: 230px;
+    margin: 10px auto;
+    height: 150px;
+    overflow: auto;
+    /* background-color: aliceblue; */
+}
+
+.product {
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.product:hover {
+    background-color: rgb(163, 241, 241);
+}
+
+.bucket {
+    width: 300px;
+    margin: 50px auto;
+}
+
+.shopping-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    background-color: bisque;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: bisque;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+button:hover {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.strike{
+    text-decoration: line-through;
+    color: lightgray;
+}
